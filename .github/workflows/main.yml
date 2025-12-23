@@ -32,5 +32,5 @@ jobs:
 
       - name: Run MLflow project
         run: |
-          cd ML0roject
+          cd MLproject
           mlflow run . --entry-point main --experiment-name modelling --env-manager=local
